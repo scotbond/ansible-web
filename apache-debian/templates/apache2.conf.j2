@@ -167,8 +167,10 @@ Include ports.conf
 	Require all granted
 </Directory>
 
-
-
+# DocumentRoot: The directory out of which you will serve your
+# documents. By default, all requests are taken from this directory, but
+# symbolic links and aliases may be used to point to other locations.
+DocumentRoot "/srv/http"
 
 # AccessFileName: The name of the file to look for in each directory
 # for additional configuration directives.  See also the AllowOverride
